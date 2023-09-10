@@ -28,3 +28,30 @@ nextButton.addEventListener("click", () => {
 
 updateCarousel();
 
+
+
+
+window.addEventListener('load', () => {
+
+    const loader = document.querySelector('.loader');
+    const mainContent = document.getElementById('mainContent');
+
+    setTimeout(() => {
+        loader.style.display = 'none';
+        mainContent.style.display = 'block';
+    }, 500);
+
+
+    const loaderBar = document.getElementById('loaderBar');
+    let progress = 0;
+
+    const interval = setInterval(() => {
+        if (progress < 100) {
+            progress += 1;
+            loaderBar.style.width = progress + '%';
+        } else {
+            clearInterval(interval);
+        }
+    }, 10);
+});
+
