@@ -1,6 +1,6 @@
-const images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg"];
-const descTexts = ["MERCURY", "VENUS", "EARTH", "MARS", "JUPITER", "SATURN", "URANUS"];
-const desc1Texts = ["Distance from SUN : 58M km", "Distance from SUN : 108.2M km", "Distance from SUN : 149.6M km", "Distance from SUN : 227.9M km", "Distance from SUN : 778.5M km", "Distance from SUN : 1.434B km", "Distance from SUN : 2.871B km"];
+const images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg" , "image8.jpg"];
+const descTexts = ["MERCURY", "VENUS", "EARTH", "MARS", "JUPITER", "SATURN", "URANUS" , "NEPTUNE"];
+const desc1Texts = ["Distance from SUN : 58M km", "Distance from SUN : 108.2M km", "Distance from SUN : 149.6M km", "Distance from SUN : 227.9M km", "Distance from SUN : 778.5M km", "Distance from SUN : 1.434B km", "Distance from SUN : 2.871B km" , "Distance from SUN : 4.495B km"];
 
 let currentIndex = 0;
 
